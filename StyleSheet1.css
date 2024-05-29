@@ -1,0 +1,222 @@
+﻿body {
+    font-weight: 500;
+    font-size: 30px;
+    background-color: floralwhite;
+    margin: auto;
+    padding: 40px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.title{
+    color: floralwhite;
+    background-color: darkblue;
+    text-align: center;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    padding: 40px 50px 0px 50px;
+}
+
+.field {
+    border-radius: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-color: darkblue;
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+.option {
+    width: 50%;
+    height: 20px;
+}
+.textarea {
+    width: 50%;
+    height: 150px;
+}
+
+
+control2 {
+    margin-bottom:50px;
+}
+.button {
+    border-radius: 1em;
+    align-content: center;
+    width: 200px;
+    height: 60px;
+    background-color: darkblue;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 50px;
+    display: sticky;
+}
+
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-color: darkblue;
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+    select::-ms-expand {
+        display: none;
+    }
+
+.select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background-color: white;
+    overflow: hidden;   
+    border-radius: .25em;
+}
+/* courser at left left style */
+    .select::after {
+        content: '\25BC';
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0 1em;
+        background-color: gainsboro;
+        cursor: pointer;
+        pointer-events: none;
+        transition: .25s all ease;
+    }
+
+    .select:hover::after {
+      
+    }
+
+
+    .container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 2em;
+    }
+
+.float1 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-color: darkblue;
+    background-image: none;
+    padding: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.float1::-ms-expand {
+    display: none;
+}
+
+.float1 {
+    position: relative;
+    display: flex;
+    width: 12em;
+    height: 3em;
+    line-height: 3;
+    background-color: white;
+    overflow: hidden;
+    border-radius: .25em;
+}
+    /* courser at left left style */
+    .float1::after {
+        content: '\25BC';
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0 1em;
+        background-color: gainsboro;
+        cursor: pointer;
+        color: black;
+        pointer-events: none;
+        transition: .25s all ease;
+    }
+
+    .float1:hover::after {
+    }
+
+.float2 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-color: darkblue;
+    background-image: none;
+
+    padding: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+    .float2::-ms-expand {
+        display: none;
+    }
+
+.float2 {
+    position: relative;
+    display: flex;
+    width: 12em;
+    height: 3em;
+    line-height: 3;
+    background-color: white;
+    overflow: hidden;
+    border-radius: .25em;
+}
+    /* courser at left left style */
+    .float2::after {
+        content: '\25BC';
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0 1.2em;
+        color: black;
+        background-color: gainsboro;
+        cursor: pointer;
+        pointer-events: none;
+        transition: .25s all ease;
+    }
+
+    .float2:hover::after {
+    }
